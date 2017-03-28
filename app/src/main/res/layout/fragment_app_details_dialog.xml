@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.sdacademy.gieysztor.michal.listofapps.AppDetailsDialogFragment">
+
+    <ImageView
+        android:id="@+id/fragmentAppDetailsDialogIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_fingerprint_black_48dp"/>
+
+    <TextView
+        android:id="@+id/fragmentAppDetailsUID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UID" />
+
+    <TextView
+        android:id="@+id/fragmentAppDetailsName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Application name" />
+
+</LinearLayout>
