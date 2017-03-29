@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:padding="16dp"
     tools:context="com.sdacademy.gieysztor.michal.listofapps.AppDetailsDialogFragment">
 
@@ -11,6 +11,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_fingerprint_black_48dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:paddingLeft="8dp">
+
+
 
     <TextView
         android:id="@+id/fragmentAppDetailsUID"
@@ -23,5 +32,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Application name" />
+    </LinearLayout>
 
 </LinearLayout>
